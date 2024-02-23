@@ -74,7 +74,7 @@ fun CurrencyConverter(){
     }
 
     Column(modifier = Modifier.fillMaxSize(), verticalArrangement = Arrangement.Center) {
-        Text(text = "Currency Converter" , modifier = Modifier.align(alignment = Alignment.CenterHorizontally)
+        Text(text = "Unit Converter" , modifier = Modifier.align(alignment = Alignment.CenterHorizontally)
         , style = MaterialTheme.typography.headlineLarge)
         Spacer(modifier = Modifier.height(10.dp))
         OutlinedTextField(value = inputValue, onValueChange = {inputValue=it
